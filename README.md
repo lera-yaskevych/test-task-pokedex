@@ -12,4 +12,4 @@ The code is maintainable because of clear naming of each variable and function, 
 - Run `npm install` in your terminal
 - Run `npm start`
 ## Troubleshooting
-For any suggestions or error reports contact me via [Telegram](https://t.me/lera_yaskevych) or [Email](mailto:valerie.yaskevych@gmail.com).
+For any suggestions or error reports contact me via [Telegram](https://t.me/lera_yaskevych) or send me an email:   valerie.yaskevych@gmail.com

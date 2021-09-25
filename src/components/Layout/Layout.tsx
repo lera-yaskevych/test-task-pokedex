@@ -26,10 +26,10 @@ export const Layout: React.FC = () => {
         const dataArray = [];
 
         for (let i = 0; i < data.length; i += 1) {
-          const pokemonPromise = fetch(data[i].url)
+          const pokemonsPromise = fetch(data[i].url)
             .then(response => response.json());
 
-          dataArray.push(pokemonPromise);
+          dataArray.push(pokemonsPromise);
         }
 
         const pokemonsArray = await Promise.all(dataArray);
