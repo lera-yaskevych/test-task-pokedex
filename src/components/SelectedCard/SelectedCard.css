@@ -33,6 +33,10 @@
   .SelectedCard {
     width: 250px;
   }
+
+  .Layout__selected-card {
+    top: 10%;
+  }
 }
 
 @media (max-width: 525px) {
@@ -44,6 +48,10 @@
   .SelectedCard__name {
     margin: 10px;
     font-size: 14px;
+  }
+
+  .Layout__selected-card {
+    top: 20%;
   }
 }
 

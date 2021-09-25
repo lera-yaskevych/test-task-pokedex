@@ -30,10 +30,26 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+
+  .Layout__button {
+    width: 200px;
+  }
 }
 
 @media (max-width: 525px) {
   .Layout {
     gap: 10px;
+  }
+
+  .Layout__button {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Layout__button {
+    padding: 10px;
+    font-size: 10px;
   }
 }

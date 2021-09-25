@@ -27,7 +27,7 @@
 
 @media (max-width: 375px) {
   .Filter__select {
-    width: 100px;
+    width: 100%;
     font-size: 10px;
   }
 }
