@@ -1,0 +1,111 @@
+.Layout__card {
+  display: flex;
+  height: min-content;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  border: 1px solid #aaa;
+  border-radius: 2%;
+  transition: all 0.2s;
+}
+
+.Layout__card:hover {
+  background-color: #fafafa;
+  box-shadow: 0px 0px 45px -10px rgba(0, 0, 0, 0.1);
+}
+
+.Layout__clickable-card {
+  padding: 10px;
+  height: min-content;
+  text-transform: capitalize;
+}
+
+.Card {
+  padding: 10px;
+}
+
+.Card__image {
+  width: 100%;
+}
+
+.Card__name {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Card__types {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  gap: 10px;
+}
+
+.Card__type {
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.Card__type--grass {
+  background-color: #48b96a;
+}
+
+.Card__type--poison {
+  background-color: #b948a6;
+}
+
+.Card__type--fire {
+  background-color: #e09c4d;
+}
+
+.Card__type--flying {
+  background-color: #cad6d4;
+}
+
+.Card__type--water {
+  background-color: #70a8e7;
+}
+
+.Card__type--bug {
+  color: #f7f7f7;
+  background-color: #493d27;
+}
+
+.Card__type--normal {
+  background-color: #ecdab8;
+}
+
+.Card__type--electric {
+  background-color: #9ff9ff;
+}
+
+.Card__type--ground {
+  color: #f7f7f7;
+  background-color: #2b1f09;
+}
+
+.Card__type--fairy {
+  background-color: #ffbcd8;
+}
+
+.Card__type--fighting {
+  color: #f7f7f7;
+  background-color: #7a3535;
+}
+
+.Card__type--psychic {
+  color: #f7f7f7;
+  background-color: #886f9e;
+}
+
+.Card__type--rock {
+  color: #f7f7f7;
+  background-color: #555555;
+}
+
+.Card__type--steel {
+  color: #f7f7f7;
+  background-color: #919191;
+}

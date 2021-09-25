@@ -1,27 +1,13 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import { Layout } from './components/Layout/Layout';
 
-interface Props {
-  onClick: () => void;
-}
+export const App = () => (
+  <div className="App">
+    <h1 className="App__title">
+      Pokedex
+    </h1>
 
-export const Provider: React.FC<Props> = React.memo(
-  ({ onClick, children }) => (
-    <button
-      type="button"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  ),
+    <Layout />
+  </div>
 );
-
-export const App: React.FC = () => {
-  return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>
-        <TodoList />
-      </Provider>
-    </div>
-  );
-};

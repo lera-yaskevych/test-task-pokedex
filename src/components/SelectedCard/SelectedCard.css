@@ -1,0 +1,29 @@
+.Layout__selected {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: center;
+}
+
+.Layout__selected-card {
+  position: sticky;
+  top: 10px;
+}
+
+.SelectedCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #aaa;
+}
+
+.SelectedCard__image {
+  align-self: center;
+  width: 60%;
+}
+
+.SelectedCard__name {
+  text-transform: capitalize;
+  text-align: center;
+}

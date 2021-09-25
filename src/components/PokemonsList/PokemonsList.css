@@ -1,0 +1,6 @@
+.Layout__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-row: 2;
+  gap: 30px;
+}

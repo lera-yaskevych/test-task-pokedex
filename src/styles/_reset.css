@@ -1,0 +1,31 @@
+body,
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+th {
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  width: inherit;
+  height: inherit;
+  padding: 0;
+}
+
+select {
+  outline: none;
+  margin: 0;
+}

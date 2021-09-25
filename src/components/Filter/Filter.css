@@ -1,0 +1,19 @@
+.Filter {
+  grid-column: 1;
+}
+
+.Filter__select {
+  text-transform: capitalize;
+}
+
+.Filter__select--default {
+  text-transform: none;
+}
+
+.Filter__option {
+  text-transform: capitalize;
+}
+
+.Filter__option--default {
+  text-transform: none;
+}

@@ -1,0 +1,14 @@
+.Table {
+  min-width: 250px;
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+}
+
+.Table__element {
+  white-space: pre;
+  padding: 5px;
+  width: 50%;
+  text-transform: capitalize;
+  text-align: center;
+  border: 1px solid #aaa;
+}
