@@ -109,3 +109,39 @@
   color: #f7f7f7;
   background-color: #919191;
 }
+
+@media (max-width: 690px) {
+  .Card {
+    width: 200px;
+    padding: 0;
+  }
+
+  .Card__name {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .Card__types {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .Card__type {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 525px) {
+  .Card {
+    font-size: 12px;
+    width: 155px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Card {
+    width: 100px;
+    font-size: 10px;
+  }
+}

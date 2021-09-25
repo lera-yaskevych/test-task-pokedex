@@ -24,6 +24,32 @@
 }
 
 .SelectedCard__name {
+  margin: 20px;
   text-transform: capitalize;
   text-align: center;
+}
+
+@media (max-width: 690px) {
+  .SelectedCard {
+    width: 250px;
+  }
+}
+
+@media (max-width: 525px) {
+  .SelectedCard {
+    width: 150px;
+    padding: 10px;
+  }
+
+  .SelectedCard__name {
+    margin: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .SelectedCard {
+    margin: 5px;
+    width: 120px;
+  }
 }

@@ -5,10 +5,35 @@
 }
 
 .Table__element {
-  white-space: pre;
   padding: 5px;
   width: 50%;
   text-transform: capitalize;
   text-align: center;
   border: 1px solid #aaa;
+}
+
+@media (max-width: 690px) {
+  .Table {
+    min-width: 200px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 525px) {
+  .Table {
+    min-width: 100px;
+    font-size: 12px;
+  }
+
+  .Table__element {
+    padding: 2px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Table {
+    padding: 0;
+    min-width: 80px;
+    font-size: 10px;
+  }
 }

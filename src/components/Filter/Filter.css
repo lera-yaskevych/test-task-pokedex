@@ -17,3 +17,17 @@
 .Filter__option--default {
   text-transform: none;
 }
+
+@media (max-width: 525px) {
+  .Filter__select {
+    font-size: 12px;
+    width: 155px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Filter__select {
+    width: 100px;
+    font-size: 10px;
+  }
+}

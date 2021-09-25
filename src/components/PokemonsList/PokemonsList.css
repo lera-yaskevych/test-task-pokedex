@@ -4,3 +4,10 @@
   grid-row: 2;
   gap: 30px;
 }
+
+@media (max-width: 525px) {
+  .Layout__list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
