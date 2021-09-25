@@ -42,7 +42,7 @@ export const Filter: React.FC<Props> = (props) => {
           disabled
           className="Filter__option--default"
         >
-          Choose pokemon type
+          Choose pokémon type
         </option>
         <option
           value="all"

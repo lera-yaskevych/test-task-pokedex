@@ -4,7 +4,6 @@ import { getPokemons } from '../../api';
 import { Filter } from '../Filter';
 import { PokemonsList } from '../PokemonsList';
 import { SelectedCard } from '../SelectedCard';
-import { Button } from '../Button';
 import './Layout.css';
 import './Error.css';
 
@@ -144,12 +143,14 @@ export const Layout: React.FC = () => {
             pokemons={filteredPokemons}
             selectPokemon={selectPokemon}
           />
-          <Button
-            text="Load more"
+          <button
+            type="button"
             className="Layout__button"
-            action={showMore}
-            disablingCondition={filteredPokemons.length <= visibleCount}
-          />
+            onClick={showMore}
+            disabled={filteredPokemons.length <= visibleCount}
+          >
+            Load more
+          </button>
         </>
       )}
 
