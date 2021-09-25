@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/test-task-pokedex/static/css/main.0c48a30b.chunk.css",
-    "main.js": "/test-task-pokedex/static/js/main.01e89866.chunk.js",
-    "main.js.map": "/test-task-pokedex/static/js/main.01e89866.chunk.js.map",
+    "main.js": "/test-task-pokedex/static/js/main.7c4808f3.chunk.js",
+    "main.js.map": "/test-task-pokedex/static/js/main.7c4808f3.chunk.js.map",
     "runtime-main.js": "/test-task-pokedex/static/js/runtime-main.8b4d7484.js",
     "runtime-main.js.map": "/test-task-pokedex/static/js/runtime-main.8b4d7484.js.map",
     "static/js/2.98327b5f.chunk.js": "/test-task-pokedex/static/js/2.98327b5f.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8b4d7484.js",
     "static/js/2.98327b5f.chunk.js",
     "static/css/main.0c48a30b.chunk.css",
-    "static/js/main.01e89866.chunk.js"
+    "static/js/main.7c4808f3.chunk.js"
   ]
 }
